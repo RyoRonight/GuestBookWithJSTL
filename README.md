@@ -1,2 +1,2 @@
 # GuestBookWithJSTL
-homework
+homework with JSTL
