@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Add Form</title>
 </head>
 <body>
-<form action="Add.jsp" method="get">
-a:<input type="text" name="a"/><br>
-b:<input type="text" name="b"><br>
-<input type="submit" name="submit" value="add"/> 
-</form>
+	<form action="Add" method="Post"> <!-- Lấy địa chỉ URL của Add và thực hiện -->
+		a:<input name="a" type="text"/> <br/> <!-- Nhập parameter a -->
+		b:<input name="b" type="text"/> <br/> <!-- Nhập parameter b -->
+		<input type="submit" name="add" value="Add" />
+	</form>
 </body>
 </html>
